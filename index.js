@@ -1,5 +1,7 @@
 import express from "express";
 import cors from "cors";
+const NOTION_API_TOKEN = process.env.NOTION_API_TOKEN || "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";
+
 const app = express();
 app.use(cors());
 app.use(express.json());
