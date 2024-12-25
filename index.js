@@ -2,7 +2,8 @@ import express from "express";
 import cors from "cors";
 import fetch from "node-fetch"; // Все импорты сверху
 
-const NOTION_API_TOKEN = process.env.NOTION_API_TOKEN || "твой_токен_здесь";
+const NOTION_API_TOKEN = "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";
+ || "твой_токен_здесь";
 
 const app = express();
 app.use(cors());
